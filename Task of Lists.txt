@@ -1,0 +1,38 @@
+Task 1:Python Program to Find the Largest Number in a List
+
+list = [12,35,87,65,77]
+print(max(list))
+
+        OR
+
+list = [12,35,87,65,77]
+A = list[0]
+for i in list:
+    if i > A:
+        A = i
+print(A)
+
+
+
+Task 2:Python Program to Find the Second Largest Number in a List
+
+list = [12,35,87,65,77]
+list.sort()
+print(list[-2])
+
+
+
+Task 3:Python Program to Merge Two Lists and Sort it
+
+l1 = [12,45,87]
+l2 = [88,65,85]
+A = l1+l2
+A.sort()
+print(A)
+
+
+Task 4:Python Program to Swap the First and Last Value of a List
+
+list = [12,35,87,65,77]
+list[0],list[-1]=list[-1],list[0]
+print(list)
